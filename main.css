@@ -109,15 +109,14 @@
 .rightsidebar{
     height: 100vh;
     width: 0;
-    position: relative;
+    position: absolute;
     z-index: 1;
     top: 0;
     right: 0;
     background-color: #000;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 130px;
-    float:right;    
+    padding-top: 130px;   
 }
 
 .navbar ul li{
